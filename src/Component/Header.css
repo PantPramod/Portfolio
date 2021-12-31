@@ -1,0 +1,72 @@
+.menu{
+    display: flex;
+    width:50%;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:10px;
+}
+.menu p{
+    cursor: pointer;
+}
+.menu p:hover{
+      color:blue
+}
+.menu-btn{
+    display: none;
+}
+.res-menu{
+    display: none;
+}
+
+
+@media (max-width:768px){
+    .menu{
+      display:none
+    }
+    .menu-btn{
+        padding: 10px;
+        display: block;
+        text-align: right;
+        
+    }
+    @keyframes example {
+        from {right:-400px}
+        to {right:0px}
+      } 
+      @keyframes example2{
+          from{ right:0px}
+          to{right:-400px}
+      }
+    .res-menu{
+        display: none;
+        text-align: center;
+        position:fixed;
+        width:100%;
+        top:0;     
+        animation-duration: .5s;
+        animation-fill-mode: both;
+        height:100vh;
+        color:white;
+}
+.res-menu .container1{
+    flex-basis: 50%;
+    background: none;
+}
+.res-menu .container2{
+    flex-basis: 50%;
+    background: rgb(211, 8, 8);
+    border-radius:5px 0 0 5px;
+}
+    .first{
+        
+    }
+   
+   
+    .res-menu p{
+        
+        padding: 10px;
+       cursor:pointer;
+
+    }
+}

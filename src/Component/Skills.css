@@ -1,0 +1,45 @@
+.skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.skill{
+    padding: 20px;
+   flex-basis: 50%;
+  
+
+}
+.skill p{
+    text-align: center;
+    padding: 10px;
+}
+
+.skill-box{
+    border:1px solid black;
+    width:80%;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+@keyframes skill{
+      0%{
+          width: 0%;
+      }
+      50%{
+          width:50%
+      }
+
+}
+.fill{
+    background: rgb(194, 115, 170);
+    height:18px;
+    animation-name: skill;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;    
+}
+
+@media (max-width:768px){
+    .skill{
+        flex-basis: 100%;
+    }
+}
