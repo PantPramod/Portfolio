@@ -1,0 +1,31 @@
+.certifications{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.c-img-box{
+  background: violet;
+    width:400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+
+}
+.c-img{
+    width: 400px;
+    height: 200px;
+  object-fit:cover
+}
+.certficate{
+ flex-basis: 50%;   
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.certficate h2{
+    padding: 10px;
+    font-size: 18px;
+}
