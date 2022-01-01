@@ -5,6 +5,8 @@ import './App.css';
 import Skills from './Component/Skills';
 import Resume from './Component/Resume';
 import Certification from './Component/Certifications';
+import Contact from './Component/Contact';
+import Projects from './Component/Projects';
 
 function App() {
   const [showResume, setShowResume] = useState(false);
@@ -18,6 +20,13 @@ function App() {
   if (page == "achievements") {
     content = <Certification />;
   }
+  if (page == "p") {
+    content = <Projects />
+  }
+  if (page == "contact") {
+    content = <Contact />;
+  }
+
   return (
     <div className="app">
       {showResume && <Resume Onclose={() => setShowResume(false)} />}

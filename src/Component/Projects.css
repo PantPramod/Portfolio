@@ -1,0 +1,24 @@
+.pro{
+    background-image: url('/src/images/cover2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    top:0;
+    position: absolute;
+    z-index: -1;
+    margin-top: 50px;
+}
+.pro .projects{
+    margin-top: 20px;
+}
+.pro .projects .project-title{
+    font-size: 25px;
+    color: tomato;
+    border:1px solid tomato
+}
+.pro .projects .description{
+    color: white;
+}
+.tech{
+    color:black
+}

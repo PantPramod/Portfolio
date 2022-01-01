@@ -1,0 +1,17 @@
+.contactss{
+    background-image: url('/src/images/cover.jpg');
+    height:100vh;
+    background-position: center;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    text-align: center;
+}
+.contactss p{
+    margin-top: 60px;
+    font-size: 25px;
+    padding: 20px;
+    color:white
+}

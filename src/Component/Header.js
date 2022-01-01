@@ -11,7 +11,7 @@ const Header = ({ SetPage }) => {
             <div className='menu'>
                 <p onClick={() => SetPage('home')}>Home</p>
                 <p onClick={() => SetPage('achievements')}>Achievements</p>
-                <p OnClick={() => SetPage('projects')}>Projects</p>
+                <p onClick={() => SetPage('p')}>Projects</p>
                 <p onClick={() => SetPage('contact')}>Contact Me</p>
             </div>
             <div className="menu-btn"><MenuIcon onClick={() => { setDisplayMenu(!displayMenu); setDisplay('flex') }} /></div>
@@ -21,7 +21,7 @@ const Header = ({ SetPage }) => {
                 <div className='container2'>
                     <p onClick={() => SetPage('home')}>Home</p>
                     <p onClick={() => SetPage('achievements')}>Achievements</p>
-                    <p OnClick={() => SetPage('projects')}>Projects</p>
+                    <p onClick={() => SetPage('p')}>Projects</p>
                     <p onClick={() => SetPage('contact')}>Contact Me</p>
                 </div>
             </div>
